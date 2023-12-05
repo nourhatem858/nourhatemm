@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="fModelStoreContainer" CdmEntityContainer="fEntities1">
+    <EntitySetMapping Name="userrs">
+      <EntityTypeMapping TypeName="fModel.userr">
+        <MappingFragment StoreEntitySet="userr">
+          <ScalarProperty Name="u_id" ColumnName="u_id" />
+          <ScalarProperty Name="u_password" ColumnName="u_password" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="u_age" ColumnName="u_age" />
+          <ScalarProperty Name="gender" ColumnName="gender" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="city" ColumnName="city" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="adminns">
+      <EntityTypeMapping TypeName="fModel.adminn">
+        <MappingFragment StoreEntitySet="adminn">
+          <ScalarProperty Name="a_password" ColumnName="a_password" />
+          <ScalarProperty Name="a_name" ColumnName="a_name" />
+          <ScalarProperty Name="a_id" ColumnName="a_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

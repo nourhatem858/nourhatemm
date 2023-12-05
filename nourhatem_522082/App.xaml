@@ -1,0 +1,29 @@
+﻿<Application x:Class="nourhatem_522082.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:nourhatem_522082"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style x:Key="lable" TargetType="Label">
+            <Setter Property="FontFamily" Value="blod"></Setter>
+            <Setter Property="FontSize" Value="50"></Setter>
+            <Setter Property="Margin" Value="50"></Setter>
+         
+            <Setter Property="Foreground" Value="Black"></Setter>
+            <Setter Property="Foreground" Value="red"></Setter>
+    <Setter Property="BorderBrush" Value="red"></Setter>
+
+
+        </Style>
+        <Style x:Key="lebleadmin" TargetType="Label">
+            <Setter Property="FontSize" Value="20"></Setter>
+            <Setter Property="Margin" Value="10,10,10,10"></Setter>
+
+            <Setter Property="Foreground" Value="DarkBlue"></Setter>
+            <Setter Property="Foreground" Value="red"></Setter>
+
+
+        </Style>
+
+    </Application.Resources>
+</Application>

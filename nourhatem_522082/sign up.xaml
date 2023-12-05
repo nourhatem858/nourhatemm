@@ -1,0 +1,42 @@
+﻿<Page x:Class="nourhatem_522082.sign_up"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:nourhatem_522082"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="sign_up">
+
+    <Grid Background="White">
+        <Label Content="user" HorizontalAlignment="Left" Margin="65,35,0,0" VerticalAlignment="Top" Height="37" Width="130" FontFamily="Arial Black" FontSize="16"/>
+        <Label Content="password" HorizontalAlignment="Left" Margin="65,97,0,0" VerticalAlignment="Top" Height="37" Width="130" FontFamily="Arial Black" FontSize="16"/>
+        <Label Content="age" HorizontalAlignment="Left" Margin="65,160,0,0" VerticalAlignment="Top" Height="37" Width="130" FontFamily="Arial Black" FontSize="16"/>
+        <Label Content="gender" HorizontalAlignment="Left" Margin="65,225,0,0" VerticalAlignment="Top" Height="37" Width="130" FontFamily="Arial Black" FontSize="16"/>
+        <ComboBox Name="com" HorizontalAlignment="Left" Margin="284,225,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="com_SelectionChanged">
+            <ComboBoxItem>female</ComboBoxItem>
+            <ComboBoxItem>male</ComboBoxItem>
+        </ComboBox>
+        <TextBox x:Name="user" HorizontalAlignment="Left" Margin="284,54,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="user_TextChanged"/>
+        <TextBox x:Name="pass" HorizontalAlignment="Left" Margin="284,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="age" HorizontalAlignment="Left" Margin="284,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="phone" HorizontalAlignment="Left" Margin="65,288,0,0" VerticalAlignment="Top" Height="37" Width="130" FontFamily="Arial Black" FontSize="16"/>
+        <TextBox x:Name="phone" HorizontalAlignment="Left" Margin="284,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="city" HorizontalAlignment="Left" Margin="65,343,0,0" VerticalAlignment="Top" Height="37" Width="130" FontFamily="Arial Black" FontSize="16"/>
+        <ComboBox x:Name="city" HorizontalAlignment="Left" Margin="284,343,0,0" VerticalAlignment="Top" Width="120">
+            <ComboBoxItem>cario</ComboBoxItem>
+            <ComboBoxItem>giza</ComboBoxItem>
+            <ComboBoxItem>moifia</ComboBoxItem>
+            <ComboBoxItem>mansora</ComboBoxItem>
+            <ComboBoxItem>6 october</ComboBoxItem>
+        </ComboBox>
+        <Button Content="add" HorizontalAlignment="Left" Margin="506,380,0,0" VerticalAlignment="Top" Height="48" Width="158" FontFamily="Arial Black" FontSize="36" Click="Button_Click_1"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="800" ></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="600"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+    </Grid>
+</Page>

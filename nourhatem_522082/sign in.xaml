@@ -1,0 +1,26 @@
+﻿<Page x:Class="nourhatem_522082.sign_in"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:nourhatem_522082"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="sign_in">
+
+    <Grid Background="White">
+        <Label Content="username" HorizontalAlignment="Left" Margin="83,94,0,0" VerticalAlignment="Top" Height="43" Width="171" FontFamily="Arial Black" FontSize="22"/>
+        <Label Content="password" HorizontalAlignment="Left" Margin="83,180,0,0" VerticalAlignment="Top" Height="43" Width="171" FontFamily="Arial Black" FontSize="22"/>
+        <TextBox x:Name="user" HorizontalAlignment="Left" Margin="289,97,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" Height="40" FontSize="22" FontFamily="Arial Black"/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Margin="289,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" Height="40" FontSize="22" FontFamily="Arial Black"/>
+        <Button x:Name="log" Content="login" HorizontalAlignment="Left" Margin="319,225,0,0" VerticalAlignment="Top" Height="39" Width="145" FontSize="24" FontFamily="Arial Black" Click="log_Click"/>
+        <Button Content="forgtten" HorizontalAlignment="Left" Margin="319,303,0,0" VerticalAlignment="Top" Height="31" Width="145" FontSize="24" FontFamily="Arial Black" Click="Button_Click"/>
+        <Label Style="{StaticResource lable}" Content="dont have account" HorizontalAlignment="Left" Margin="400,380,0,0" VerticalAlignment="Top" Height="43" Width="241" FontFamily="Arial Black" FontSize="22"/>
+        <Button Content="sign up" HorizontalAlignment="Left" Margin="675,379,0,0" VerticalAlignment="Top" Height="43" Width="115" FontFamily="Arial Black" FontSize="24" Click="Button_Click_1"/>
+        <Label Content="phone" HorizontalAlignment="Left" Margin="83,30,0,0" VerticalAlignment="Top" Height="43" Width="171" FontFamily="Arial Black" FontSize="22"/>
+        <TextBox x:Name="phone" HorizontalAlignment="Left" Margin="289,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="205" Height="40" FontSize="22" FontFamily="Arial Black"/>
+        <Button Content="admin" HorizontalAlignment="Left" Margin="42,380,0,0" VerticalAlignment="Top" Height="60" Width="174" FontSize="24" FontFamily="Arial Black" Click="Button_Click_2"/>
+
+
+    </Grid>
+</Page>
